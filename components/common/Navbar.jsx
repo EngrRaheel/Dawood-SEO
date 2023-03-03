@@ -1,5 +1,4 @@
 import React from "react";
-import ComponentWrapper from "./ComponentWrapper";
 import Image from "next/image";
 import Link from "next/link";
 // import component 👇
@@ -20,28 +19,28 @@ const Navitems = [
     Route: "#Features",
   },
   {
-    Name: "Brand",
-    Route: "#Brand",
+    Name: "TikTok",
+    Route: "#TikTok",
   },
   {
-    Name: "Services",
-    Route: "#Services",
+    Name: "Extension",
+    Route: "#Extension",
   },
   {
-    Name: "Projects",
-    Route: "#Projects",
+    Name: "Brands",
+    Route: "#Brands",
   },
   {
-    Name: "Contact Us",
-    Route: "#ContactUs",
+    Name: "Pricing",
+    Route: "#Pricing",
   },
   {
-    Name: "About Us",
-    Route: "/about",
+    Name: "Blog",
+    Route: "/blog",
   },
   {
-    Name: "Team",
-    Route: "/team",
+    Name: "Community",
+    Route: "/community",
   },
 ];
 
@@ -51,15 +50,17 @@ function Navbar() {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <ComponentWrapper styles="h-[80px] bg-[#121521]">
-      <div className="w-full h-full flex justify-between items-center">
+    <div className="w-full h-[90px] z-30 relative bg-blue/20 font-Inter">
+
+
+      <div className="w-full  max-w-[1280px] m-auto h-full flex justify-between items-center">
         {/* Logo here... */}
         <div className="relative w-28 h-28 invert">
           <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />
         </div>
 
         {/* Navitems here.. */}
-        <div className="md:flex hidden justify-center items-center gap-6">
+        <div className="md:flex hidden justify-center items-center gap-8">
           {Navitems.map((item, index) => {
             return index === 5 || index === 6 ? (
               <a
@@ -80,7 +81,7 @@ function Navbar() {
         </div>
 
         {/* Hamburgur */}
-        <div className="md:hidden inline-block w-[] h-[] relative ">
+        <div className="md:hidden inline-block w-[] h-[] relative text-base">
           <Hamburger
             toggled={isOpen} toggle={setIsOpen} color='#ffffff'>
           </Hamburger>
@@ -123,7 +124,7 @@ function Navbar() {
           </div>
         </div>
       </Drawer>
-    </ComponentWrapper>
+    </div>
   );
 }
 

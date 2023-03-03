@@ -1,7 +1,5 @@
-import type { NextPage } from 'next'
 import Navbar from '../../components/common/Navbar'
-import Hero from '../../components/Hero'
-
+import Hero from "../../components/Herosection/Hero";
 const Home= () => {
   return (
     <>

@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/common/Navbar.jsx", "components/common/ComponentWrapper.jsx", "components/Hero.jsx"  ],
+, "components/common/Navbar.jsx", "components/common/ComponentWrapper.jsx", "components/Hero.jsx", "src/pages/index.jsx", "src/pages/_app.jsx"  ],
   "exclude": [
     "node_modules"
   ]
