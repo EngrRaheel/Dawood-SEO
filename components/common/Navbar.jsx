@@ -9,6 +9,7 @@ import { Spin as Hamburger } from 'hamburger-react';// hamburger
 //import styles 👇
 import "react-modern-drawer/dist/index.css";
 // assets
+import { IoMdArrowDropdown } from "react-icons/io";
 
 
 
@@ -62,12 +63,16 @@ function Navbar() {
         {/* Navitems here.. */}
         <div className="md:flex hidden justify-center items-center gap-8">
           {Navitems.map((item, index) => {
-            return index === 5 || index === 6 ? (
+            return index === 5 || index === 6 || index === 0 ? (
               <a
-                className="font-inter font-normal text-white text-[18px]"
+                className="flex justify-center items-center font-inter font-normal text-white text-[18px]"
                 href={item.Route}
+
+                
+
               >
                 {item.Name}
+                <IoMdArrowDropdown size={30} />
               </a>
             ) : (
               <Link
