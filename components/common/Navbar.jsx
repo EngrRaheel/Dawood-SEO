@@ -50,10 +50,10 @@ function Navbar() {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className="w-full h-[90px] z-30 relative bg-blue/20 font-Inter">
+    <div className="w-full h-[65px] z-30 relative bg-blue/20 font-Inter">
 
 
-      <div className="w-full  max-w-[1280px] m-auto h-full flex justify-between items-center">
+      <div className="w-full  max-w-[1172px] m-auto h-full flex justify-between items-center">
         {/* Logo here... */}
         <div className="relative w-28 h-28 invert">
           <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />
@@ -94,10 +94,10 @@ function Navbar() {
         onClose={toggleDrawer}
         direction="left"
         style={{
-          width: "50%",
+          width: "100%",
         }}
       >
-        <div className="w-full h-full bg-[#0C0445] p-4">
+        <div className="w-full h-full bg-[#0b0d14] p-4">
           <div className="relative w-[] h-[]">
             <Image src={""} alt="" fill className="object-contain" />
           </div>

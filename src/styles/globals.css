@@ -8,3 +8,58 @@
   padding: 0;
   box-shadow: border-box;
 }
+
+.bg_card {
+  /* background: rgb(124, 43, 99);
+  background: linear-gradient(
+    12deg,
+    rgba(124, 43, 99, 1) 6%,
+    rgba(18, 21, 33, 1) 40%
+  ); */
+  /* Created with https://www.css-gradient.com */
+  /* background: rgba(32, 33, 68, 1);
+  background: -webkit-linear-gradient(
+    top,
+    rgba(32, 33, 68, 1),
+    rgba(45, 25, 51, 1)
+  );
+  background: -moz-linear-gradient(
+    top,
+    rgba(32, 33, 68, 1),
+    rgba(45, 25, 51, 1)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 33, 68, 1),
+    rgba(45, 25, 51, 1)
+  ); */
+  /* Created with https://www.css-gradient.com */
+  background: #202144;
+  background: -webkit-radial-gradient(right, #202144, #2d1933);
+  background: -moz-radial-gradient(right, #202144, #2d1933);
+  background: radial-gradient(to left, #202144, #2d1933);
+}
+
+
+
+/* .textcolor { */
+/* background: linear-gradient(to right, #3d67ff, #93ede8); */
+/* -webkit-background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
+/* background: rgb(61, 103, 255);
+  background: linear-gradient(
+    121deg,
+    rgba(61, 103, 255, 1) 0%,
+    rgba(147, 237, 232, 1) 100%
+  ); */
+/* Gradient for text color */
+/* background-image: linear-gradient( */
+/* 121deg, */
+/* #263d7f, */
+
+/* ); */
+/* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+/* } */

@@ -1,10 +1,14 @@
-import Navbar from '../../components/common/Navbar'
+// import Navbar from '../../components/common/Navbar'
 import Hero from "../../components/Herosection/Hero";
-const Home= () => {
+import ServiceCard from '../../components/ServiceCard/ServiceCard';
+const Home = () => {
   return (
     <>
-    <Navbar />
-    <Hero/>
+      <Hero />
+      <ServiceCard />
+      <ServiceCard />
+      <ServiceCard />
+      <ServiceCard />
     </>
   )
 }
