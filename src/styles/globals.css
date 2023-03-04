@@ -40,8 +40,60 @@
   background: radial-gradient(to left, #202144, #2d1933);
 }
 
+.bg_BYT {
+  background: radial-gradient(#202245, #121522);
+}
 
+.bg_SCY {
+  background: radial-gradient(#202245, #121522);
+}
 
+.mySwiper {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 2rem !important;
+}
+
+.swiper-slide {
+  text-align: center !important;
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: transform 2s ease !important;
+}
+
+.swiper-button-prev::after {
+}
+
+.MyRatingSlider {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+}
+
+.ratingSlider-Slide {
+}
+
+.sliderItem {
+  background: rgb(131, 42, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 60, 133, 1) 50%,
+    rgba(128, 43, 98, 1) 100%
+  );
+}
+
+/* to hide scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* #1d335d */
 /* .textcolor { */
 /* background: linear-gradient(to right, #3d67ff, #93ede8); */
 /* -webkit-background-clip: text; */

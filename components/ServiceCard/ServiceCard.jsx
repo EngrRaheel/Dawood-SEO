@@ -16,7 +16,7 @@ function ServiceCard() {
                         <Image src={"/Images/cardimage.png"} alt="" fill ></Image>
                     </div>
                     <div className='flex flex-col justify-center items-center md:items-start w-full text-white gap-4 md:gap-6 pl-[8%] pr-[4%] md:pl-[10%] md:pr-[7%] space-y-6 md:space-y-4 text-center md:text-left'>
-                        <h3 class="font-extrabold text-[24px] md:text-[30px] lg:text-[32px]">Understand what’s working for your channel</h3>
+                        <h1 class="font-extrabold text-[24px] md:text-[30px] lg:text-[32px]">Understand what’s working for your channel</h1>
                         <p className='font-Inter text-[#878b8c] font-normal text-[17px] '>Track and compare your performance in real time so you never miss an opportunity to get more views and make money from your videos.</p>
                         <button className='flex justify-center items-center px-6 py-3 rounded-full bg-[#007CEF]'>
                             Sign Up For Free

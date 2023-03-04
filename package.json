@@ -20,7 +20,8 @@
     "react-awesome-reveal": "^4.2.3",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "react-modern-drawer": "^1.2.0"
+    "react-modern-drawer": "^1.2.0",
+    "swiper": "^9.1.0"
   },
   "devDependencies": {
     "@types/node": "18.14.5",
