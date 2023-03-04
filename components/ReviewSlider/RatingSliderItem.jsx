@@ -8,7 +8,7 @@ const RatingSliderItem = () => {
             <Icons.GoogleIcon ClassName='w-[30px]  h-[30px] absolute top-1 right-1 ' />
             <div className='flex items-center gap-1'>
                 <div className='relative h-14 w-14  rounded-full shadow-xl'>
-                    <Image src={'/Images/ratingSliderUserSample.png'} alt='' fill />
+                    <Image src={'/Images/logend.svg'} alt='' fill />
                 </div>
                 <div className=''>
                     <p className='text-blue-600 font-semibold'>vincent maiolini</p>
