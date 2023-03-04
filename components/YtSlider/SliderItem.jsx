@@ -30,7 +30,7 @@ const SliderItem = () => {
             
             </div>
             <div className='w-full text-center'>
-                <p className='text-white font-[600] text-xl'>“Before vidIQ, I woke up at 2am worried about my views. Now I don’t get YouTube breakdowns and I’m confident in my thumbnail and title’’</p>
+                <p className='text-white font-[600] text-xl'>  Before vidIQ, I woke up at 2am worried about my views. Now I do not get YouTube breakdowns and I am confident in my thumbnail and title.</p>
             </div>
 
         </div>
