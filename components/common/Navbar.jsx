@@ -51,7 +51,7 @@ function Navbar() {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className="w-full h-[65px] z-30 relative bg-blue/20 font-Inter">
+    <div className="w-full h-[65px]  bg-blue/20 font-Inter fixed top-0 z-10">
 
 
       <div className="w-full  max-w-[1172px] m-auto h-full flex justify-between items-center">

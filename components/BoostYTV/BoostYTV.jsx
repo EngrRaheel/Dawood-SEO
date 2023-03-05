@@ -8,7 +8,7 @@ function BoostYTV() {
                     <h1 class="font-extrabold text-[24px] md:text-[30px] lg:text-[32px] text-white">Boost your YouTube views</h1>
                     <p className='font-Inter font-medium text-[gray] text-[17px] '>Discover keyword, title and description recommendations designed to get you more views and subscribers for free.</p>
                 </div>
-                <div className='w-full h-[642px] relative'>
+                <div className='w-full h-[300px] md:h-[600px] relative'>
                     <Image src={"/Images/BoostYTV.png"} alt='img' className='cover' fill></Image>
 
                 </div>

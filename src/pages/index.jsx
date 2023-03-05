@@ -5,19 +5,21 @@ import BoostYTV from '../../components/BoostYTV/BoostYTV';
 import SuperchargeYT from "../../components/SupreChargeYT/SuperchargeYT";
 import YtSlider from "../../components/YtSlider/Slider";
 import ReviewSlider from "../../components/ReviewSlider/RatingsSlider";
-
+import Footer from "../../components/common/Footer";
 const Home = () => {
   return (
     <>
       <Hero />
-      <YtSlider/>
+      <YtSlider />
       <ServiceCard />
       <ServiceCard />
       <ServiceCard />
       <ServiceCard />
       <BoostYTV />
-      <ReviewSlider/>
+      <ReviewSlider />
       <SuperchargeYT />
+      <Footer />
+
     </>
   )
 }
