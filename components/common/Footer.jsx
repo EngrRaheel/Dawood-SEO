@@ -19,10 +19,10 @@ function Footer() {
                 {/* <div className="col-span-full mb-7 md:mb-8"></div> */}
                 <div className="col-span-full md:col-span-3 flex flex-col">
                     <div class="font-medium leading-5 mb-8 md:mb-12">
-                        "Our mission is to empower every video creator with the insights and inspiration they need to grow.
+                        Our mission is to empower every video creator with the insights and inspiration they need to grow.
                         That is why we are obsessed with providing an intelligent mix of technological
                         and human expertise that boosts your productivity and gets you more views.
-                        Whatever your next challenge, we will shine a light on the way forward."
+                        Whatever your next challenge, we will shine a light on the way forward.
                     </div>
                     <div class="font-medium ">
                         © 2023 vidIQ. All Rights Reserved.
