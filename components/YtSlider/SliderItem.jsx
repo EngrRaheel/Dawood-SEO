@@ -4,8 +4,8 @@ import {BsEyeFill} from 'react-icons/bs'
 import {IoIosPeople} from 'react-icons/io'
 const SliderItem = () => {
     return (
-        <div className='h-[500px]  w-[350px] lg:w-[400px] flex flex-col items-center  rounded-2xl p-8 bg-gradient-to-t from-[#4E287F] to-[#b51d7d] gap-4'>
-            <div className='h-28 w-28 rounded-full relative'>
+        <div className='font-Inter_2 h-[500px]  w-[330px] lg:w-[350px] flex flex-col items-center  rounded-2xl p-8 bg-gradient-to-t from-[#25385a] to-[#b51d7d] gap-4'>
+            <div className='h-24 w-24 rounded-full relative'>
                 <Image src={'/Images/sliderSamplepic.webp'} className='object-cover rounded-full' fill alt='' />
             </div>
             <div className='w-full flex flex-col gap-2 items-center justify-center'>

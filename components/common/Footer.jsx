@@ -8,7 +8,7 @@ import { BsTwitter } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
 function Footer() {
     return (
-        <div className='w-full  text-white bg-[#121521] text-base overflow-x-hidden'>
+        <div className='w-full  text-white bg-[#121521] text-base overflow-x-hidden font-Roboto'>
             {/* parent div */}
             <div className="page-section-container max-w-[1280px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
                 <div className="col-span-full mb-7 md:mb-8">
@@ -78,7 +78,7 @@ function Footer() {
                         Connect with us
                     </div>
                     <div class="leading-5 text-white md:text-opacity-60">
-                        Call Sales 888-998-VIDIQ (8434)
+                        Call Sales +92327 0075555
                     </div>
                     <div className="mt-8 flex items-center space-x-4">
                         <a href="https://www.youtube.com" className="hover:opacity-70" title="YouTube" ><RiYoutubeLine size={30} /></a>

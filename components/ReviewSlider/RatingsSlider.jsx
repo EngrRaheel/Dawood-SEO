@@ -26,7 +26,7 @@ const ReviewSlider = () => {
                         <div className='flex flex-col gap-4 justify-center items-start gap-y-2 '>
                             <p className='font-[700] '>Dawood and Tanner Specialist Dental Practice</p>
                             <div>
-                            <Rating name="half-rating" defaultValue={4.5} precision={0.5} />
+                                <Rating name="half-rating" defaultValue={4.5} precision={0.5} />
 
                             </div>
                             <p className='text-slate-500'>Based on 63 reviews</p>
@@ -44,6 +44,7 @@ const ReviewSlider = () => {
                 {/* right portion */}
                 <div className=" w-full md:w-[70%]">
                     <Swiper
+                        speed={2000}
                         autoplay={{
                             delay: 1500,
                             disableOnInteraction: false,

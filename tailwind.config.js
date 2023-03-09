@@ -12,6 +12,8 @@ module.exports = {
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
       OpenSans: ["Open Sans", "sans-serif"],
+      Inter_2: ["Inter Tight", "sans-serif"],
+      Roboto: ["Roboto", "sans-serif"],
     },
     colors: {
       blue: "#121521",
