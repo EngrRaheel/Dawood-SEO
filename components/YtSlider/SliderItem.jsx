@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import {BsEyeFill} from 'react-icons/bs'
-import {IoIosPeople} from 'react-icons/io'
+import { BsEyeFill } from 'react-icons/bs'
+import { BsBoxArrowInUpRight } from 'react-icons/bs'
+import { IoIosPeople } from 'react-icons/io'
+import Link from 'next/link'
 const SliderItem = () => {
     return (
-        <div className='font-Inter_2 h-[500px]  w-[330px] lg:w-[350px] flex flex-col items-center  rounded-2xl p-8 bg-gradient-to-t from-[#25385a] to-[#b51d7d] gap-4'>
+        <div className='font-Inter_2 h-[500px]  w-[330px] lg:w-[350px] flex flex-col items-center  rounded-2xl p-6 bg-gradient-to-t from-[#25385a] to-[#b51d7d] gap-3'>
             <div className='h-24 w-24 rounded-full relative'>
                 <Image src={'/Images/sliderSamplepic.webp'} className='object-cover rounded-full' fill alt='' />
             </div>
@@ -19,19 +21,26 @@ const SliderItem = () => {
             </div>
 
             <div className='w-full flex items-center justify-center gap-14'>
-            <div className='flex gap-1 items-center justify-center text-xl text-white/50 font-[600]'>
-                <IoIosPeople size={30} />
-            <p>subscribers</p>
-            </div>
-            <div className='flex gap-1 items-center justify-center text-xl text-white/50 font-[600]'>
-                <BsEyeFill size={25} />
-            <p>views</p>
-            </div>
-            
+                <div className='flex gap-1 items-center justify-center text-xl text-white/50 font-[600]'>
+                    <IoIosPeople size={30} />
+                    <p>subscribers</p>
+                </div>
+                <div className='flex gap-1 items-center justify-center text-xl text-white/50 font-[600]'>
+                    <BsEyeFill size={25} />
+                    <p>views</p>
+                </div>
+
             </div>
             <div className='w-full text-center'>
                 <p className='text-white font-[600] text-xl'>  Before vidIQ, I woke up at 2am worried about my views. Now I do not get YouTube breakdowns and I am confident in my thumbnail and title.</p>
             </div>
+            <button className=' text-white shadow-lg  bg-[#1c62e4] hover:bg-[#064bcd] duration-200  px-2 rounded-3xl' >
+                <Link href="/ProofOfwork" className='flex items-center justify-between gap-2'>
+                    <p className='font-Roboto text-sm '>See Proof</p>
+                    <BsBoxArrowInUpRight  size={12} />
+                </Link>
+
+            </button>
 
         </div>
     )

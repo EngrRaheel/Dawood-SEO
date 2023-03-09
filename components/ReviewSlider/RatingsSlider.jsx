@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 const ReviewSlider = () => {
     return (
-        <div className='w-full bg_card py-16'>
+        <div className='w-full bg-blue py-16'>
             <div className='w-full h-full m-auto max-w-[1280px] md:flex md:gap-4 gap-y-4 justify-center items-center'>
 
 
@@ -26,7 +26,7 @@ const ReviewSlider = () => {
                         <div className='flex flex-col gap-4 justify-center items-start gap-y-2 '>
                             <p className='font-[700] '>Dawood and Tanner Specialist Dental Practice</p>
                             <div>
-                                <Rating name="half-rating" defaultValue={4.5} precision={0.5} />
+                                <Rating name="half-rating" defaultValue={4.5} precision={0.5} readOnly />
 
                             </div>
                             <p className='text-slate-500'>Based on 63 reviews</p>

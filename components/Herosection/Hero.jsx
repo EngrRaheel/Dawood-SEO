@@ -12,8 +12,8 @@ function Hero() {
 
           {/* Col 1 pt-24 md:pt-32 pb:0 md:pb-28 lg:pb-18 */}
           <div className="flex flex-col justify-start text-center lg:text-start mx-2 md:px-1 lg:px-0 lg:justify-center items-center gap-6 h-full  ">
-            <h1 className="font-extrabold  text-white tracking-tighter md:tracking text-[32px] md:text-[45px] lg:text-[60px] ">Designed to boost your YouTube views</h1>
-            <p className="self-start font-normal  lg:font-medium  text-white text-[20px]   leading-[30px] md:text-[20px] md:leading[30px] lg:text-[22px] lg:leading-[27px]">Get free insights and guidance to keep your <br /> YouTube channel growing.</p>
+            <h1 className="font-extrabold  text-white tracking-tighter md:tracking-tighter text-[32px] md:text-[40px] lg:text-[55px] ">Dawood Proud <br /> Stand Out from Crowd</h1>
+            <p className="self-start font-inter font-bold lg:font-bold  text-white text-[20px]   leading-[30px] md:text-[20px] md:leading[30px] lg:text-[22px] lg:leading-[27px]">Ultimate Destination for your all Youtube Needs.</p>
           </div>
           {/* Col 2 */}
           {/* <div className="w-full h-full flex items-center justify-center flex-col">

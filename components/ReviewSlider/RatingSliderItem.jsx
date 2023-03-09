@@ -19,7 +19,7 @@ const RatingSliderItem = () => {
             <div className='mt-4'>
                 <Rating name="half-rating" defaultValue={5} precision={0.5} />
             </div>
-            <div className='overflow-y-auto text-justify'>
+            <div className='overflow-y-auto text-justify pr-4'>
                 <p>We chose the Darwood and Tanner specialise implant practice for my wifes dental treatment as we wanted these complex and demanding procedures conducted by the the most competent and experienced practitioner that I knew. We made a very wise decision, as our whole experience was one of total satisfaction from our first visit. Andrew explained the forthcoming treatments, calmly, clearly and concisely, allaying any concerns we had at the time. The staff were both knowledgeable and most kind and helpful at every visit. The treatments went well without any complications and after the surgical aspects were completed, Susan took over the ongoing prosthetic treatments seamlessly and with equal competence. Achieving an excellent and most satisfactory result with kind and endlessly patient endeavour.We would unreservedly recommend their Dental Practice after our totally positive and enjoyable experience.</p>
             </div>
         </div>
