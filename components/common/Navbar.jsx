@@ -185,8 +185,8 @@ function Navbar() {
           {navItems.map((item, index) => (
             <Link href={item.Route}>
               <ul className="relative text-white main list-none flex justify-center items-start">
-                <li key={index} className="cursor-pointer">{item.Name}</li>
-                {index === 0 || index === navItems.length - 1 || index === navItems.length - 2 ? (
+                <li key={item.id} className="cursor-pointer">{item.Name}</li>
+                {item.id === 0 || item.id === navItems.length - 1 || item.id === navItems.length - 2 ? (
                   <IoMdArrowDropdown size={20} className="block" />
                 ) : (
                   <IoMdArrowDropdown className="hidden" />
