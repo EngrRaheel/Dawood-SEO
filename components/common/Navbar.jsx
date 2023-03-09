@@ -182,7 +182,7 @@ function Navbar() {
 
         {/* tester */}
         <div className="md:flex text-white hidden justify-center items-center font-Inter_2 gap-8 relative">
-          {navItems.map((item, index) => (
+          {navItems.map((item, id) => (
             <Link href={item.Route}>
               <ul className="relative text-white main list-none flex justify-center items-start">
                 <li key={item.id} className="cursor-pointer">{item.Name}</li>
