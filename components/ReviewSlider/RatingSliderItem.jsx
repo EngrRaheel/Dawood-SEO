@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import * as Icons from '../../Svg/Icons'
 import Rating from '@mui/material/Rating';
-const RatingSliderItem = () => {
+const RatingSliderItem = (props) => {
+    const {rate} = props;
     return (
         <div className='flex flex-col justify-center items-start h-[280px] w-[300px]  p-5 relative rounded-lg bg-[#FAFAFA]'>
             <Icons.GoogleIcon ClassName='w-[30px]  h-[30px] absolute top-1 right-1 ' />
@@ -17,7 +18,7 @@ const RatingSliderItem = () => {
 
             </div>
             <div className='mt-4'>
-                <Rating name="half-rating" defaultValue={5} precision={0.5} />
+                <Rating  readOnly value={rate} />
             </div>
             <div className='overflow-y-auto text-justify pr-4'>
                 <p>We chose the Darwood and Tanner specialise implant practice for my wifes dental treatment as we wanted these complex and demanding procedures conducted by the the most competent and experienced practitioner that I knew. We made a very wise decision, as our whole experience was one of total satisfaction from our first visit. Andrew explained the forthcoming treatments, calmly, clearly and concisely, allaying any concerns we had at the time. The staff were both knowledgeable and most kind and helpful at every visit. The treatments went well without any complications and after the surgical aspects were completed, Susan took over the ongoing prosthetic treatments seamlessly and with equal competence. Achieving an excellent and most satisfactory result with kind and endlessly patient endeavour.We would unreservedly recommend their Dental Practice after our totally positive and enjoyable experience.</p>

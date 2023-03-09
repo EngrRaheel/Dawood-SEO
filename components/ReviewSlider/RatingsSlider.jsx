@@ -68,12 +68,10 @@ const ReviewSlider = () => {
                         loop={true}
                         className="MyRatingSlider"
                     >
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
-                        <SwiperSlide> <RatingSliderItem /></SwiperSlide>
+                        {data.map((data, index) => {
+                            return <SwiperSlide key={index}> <RatingSliderItem rate = {data.star}/></SwiperSlide>
+
+                        })}
 
                     </Swiper>
 
@@ -85,5 +83,25 @@ const ReviewSlider = () => {
 
     )
 }
+
+
+const data = [
+    {
+        start: 2
+    },
+    {
+        star: 3
+    },
+    {
+        start: 5
+    },
+    {
+        star: 4
+    },
+    {
+        star: 2
+    },
+]
+
 
 export default ReviewSlider;
