@@ -34,13 +34,17 @@ const SliderItem = () => {
             <div className='w-full text-center'>
                 <p className='text-white font-[600] text-xl'>  Before vidIQ, I woke up at 2am worried about my views. Now I do not get YouTube breakdowns and I am confident in my thumbnail and title.</p>
             </div>
-            <button className=' text-white shadow-lg  bg-[#1c62e4] hover:bg-[#064bcd] duration-200  px-2 rounded-3xl' >
-                <Link href="/ProofOfwork" className='flex items-center justify-between gap-2'>
-                    <p className='font-Roboto text-sm '>See Proof</p>
-                    <BsBoxArrowInUpRight  size={12} />
+            <button className='flex justify-center items-center px-2 py-2 rounded-full text-white drop-shadow-lg  bg-[#1c62e4] hover:bg-[#064bcd] duration-200 ' >
+                <Link href="/ProofOfwork" className='flex items-center justify-between gap-1'>
+                    <p className='font-Roboto text-lg  font-bold '>See Proof</p>
+                    <BsBoxArrowInUpRight  size={18} />
                 </Link>
 
             </button>
+            {/* <button className=' bg-[#007CEF] mt-6'>
+                    Sign Up For Free
+                    <BsArrowRightShort className="text-[30px] text-white" />
+                </button> */}
 
         </div>
     )
