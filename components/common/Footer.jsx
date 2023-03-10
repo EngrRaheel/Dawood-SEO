@@ -6,6 +6,7 @@ import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
+
 function Footer() {
     return (
         <div className='w-full  text-white bg-[#121521] text-base overflow-x-hidden font-Roboto'>
@@ -68,6 +69,9 @@ function Footer() {
                                 <p>Support
                                 </p>
                                 <p>How To Get More YouTube Views</p>
+                                <Link href='/TeamMembers'>
+                                    team members
+                                </Link>
                             </div>
                         </div>
 

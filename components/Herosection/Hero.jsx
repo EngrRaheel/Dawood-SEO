@@ -5,7 +5,7 @@ import Navbar from "../common/Navbar";
 function Hero() {
   return (
     <div className="w-full h-screen  flex items-center justify-start flex-col bg-cover bg-center bg-[url('/Images/hero_bg.png')] ">
-      <Navbar />
+      <Navbar bg_color={"bg-blue/5"} position={'fixed'} />
       <div className="w-full  lg:max-w-[1172px] h-full mx-auto">
         <div className="w-full h-full grid justify-center items-center md:grid-col-1 lg:grid-cols-[2fr_1fr]  md:leading-[45px] lg:leading-[60px]">
 

@@ -13,13 +13,13 @@ import "swiper/css/navigation";
 const ReviewSlider = () => {
     return (
         <div className='w-full bg-blue py-16'>
-            <div className='w-full h-full m-auto max-w-[1280px] md:flex md:gap-4 gap-y-4 justify-center items-center'>
+            <div className='w-full h-full m-auto max-w-[1280px] md:flex md:gap-4 gap-y-3 justify-center items-center'>
 
 
                 {/* left portion */}
-                <div className="w-full h-[280px] rounded-lg p-4  md:my-0 my-8 md:w-[30%] bg-white">
+                <div className="w-full h-[222px] font-OpenSans rounded-lg p-6  md:my-0 my-8 md:w-[30%] bg-white">
 
-                    <div className='w-full flex  md:gap-3 gap-10 px-10 md:px-0'>
+                    <div className='w-full flex  md:gap-2 gap-10 px-10 md:px-0'>
                         <div className='h-20 w-36 relative'>
                             <Image src={'/Images/ratingSliderSample.jpg'} alt="" fill />
                         </div>
@@ -30,10 +30,10 @@ const ReviewSlider = () => {
 
                             </div>
                             <p className='text-slate-500'>Based on 63 reviews</p>
-                            <div className='relative h-5 w-36'>
+                            <div className='relative h-[18px] w-[144px]'>
                                 <Image src={'/Images/poweredByGoogle.webp'} alt='' fill />
                             </div>
-                            <button className=' flex gap-1 text-white shadow-lg items-center justify-center bg-[#1c62e4] hover:bg-[#064bcd] duration-200 py-1 px-3 rounded-3xl my-4'>
+                            <button className=' flex gap-1 text-white shadow-lg items-center justify-center bg-[#1c62e4] hover:bg-[#064bcd] duration-200 py-1 px-3 rounded-3xl '>
                                 review us on
                                 <Icons.GoogleIcon ClassName='bg-white rounded-full' />
                             </button>
@@ -69,7 +69,7 @@ const ReviewSlider = () => {
                         className="MyRatingSlider"
                     >
                         {data.map((data, index) => {
-                            return <SwiperSlide key={index}> <RatingSliderItem rate = {data.star}/></SwiperSlide>
+                            return <SwiperSlide key={index}> <RatingSliderItem rate={data.star} /></SwiperSlide>
 
                         })}
 

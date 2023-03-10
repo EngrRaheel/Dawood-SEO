@@ -6,13 +6,13 @@ import SuperchargeYT from "../../components/SupreChargeYT/SuperchargeYT";
 import YtSlider from "../../components/YtSlider/Slider";
 import ReviewSlider from "../../components/ReviewSlider/RatingsSlider";
 import Footer from "../../components/common/Footer";
-import TeamSection from "../../components/TeamSection/TeamsSection"
+import TeamSection from "../../components/TeamSection/TeamsMemberCard"
 const Home = () => {
   return (
     <>
 
       <Hero />
-      <TeamSection/>
+      {/* <TeamSection/> */}
       <YtSlider />
       <ServiceCard />
       <ServiceCard />

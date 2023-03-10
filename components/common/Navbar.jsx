@@ -165,14 +165,13 @@ const navItems = [
   },
 ];
 
-function Navbar() {
+function Navbar({ bg_color, position }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className="w-full h-[60px]  bg-blue/5 font-Roboto  font-bold fixed top-0 z-10">
-
+    <div className={`w-full h-[60px] font-Roboto  font-bold ${position} top-0 z-10 ${bg_color}`}>
 
       <div className="w-full  max-w-[1172px] m-auto h-full flex justify-between items-center">
         {/* Logo here... */}
@@ -183,7 +182,7 @@ function Navbar() {
         {/* tester */}
         <div className="md:flex text-white hidden justify-center items-center font-Inter_2 gap-8 relative">
           {navItems.map((item, index) => (
-            <Link href={item.Route}  key={index}>
+            <Link href={item.Route} key={index}>
               <ul className="relative text-white main list-none flex justify-center items-start">
                 <li key={index} className="cursor-pointer">{item.Name}</li>
                 {index === 0 || index === navItems.length - 1 || index === navItems.length - 2 ? (
