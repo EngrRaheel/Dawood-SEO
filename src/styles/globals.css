@@ -125,17 +125,10 @@ li:hover .dropdown {
 }
 
 .main:hover .item {
-  display: block;
-}
-
-.parent1:hover .item {
-  display: block;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  
 }
+
 
 .glow_text:hover {
   text-shadow: 0 0 15px white;
@@ -212,6 +205,41 @@ li:hover .dropdown {
 .MuiRating-icon {
   color: #e7711b;
 }
+
+/* =======> drawer styles */
+.drawer{
+  width: 50% !important;
+  height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  background-color: #150d29 !important;
+}
+@media screen and (max-width: 700px) {
+  .drawer {
+    width: 70% !important;
+    height: 100% !important;
+    overflow-y: auto !important;
+  overflow-x: hidden !important;
+    
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .drawer {
+    width: 100% !important;
+    height: 100% !important;
+    overflow-y: auto !important;
+  overflow-x: hidden !important;
+
+ }
+}
+
+
+.selected {
+  margin-bottom: 150px;
+
+}
+
 /* #1d335d */
 /* .textcolor { */
 /* background: linear-gradient(to right, #3d67ff, #93ede8); */

@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../common/Navbar'
 import Image from 'next/image'
 function TeamsMemberCard({ name, position, bio, imageUrl }) {
   return (

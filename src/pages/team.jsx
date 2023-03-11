@@ -1,6 +1,6 @@
 import React from 'react'
-import TeamsMemberCard from '../../components/TeamSection/TeamsMemberCard'
 import Image from 'next/dist/client/image'
+import TeamsMemberCard from '../../components/SupreChargeYT/TeamSection/TeamsMemberCard'
 import Navbar from '../../components/common/Navbar'
 import Footer from '../../components/common/Footer'
 
