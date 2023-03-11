@@ -127,7 +127,7 @@ const navItems = [
     Name: "Features",
     Route: "#Features",
     hasDropdown: true,
-    dropdownItems: ["Service 1", "Service 2", "Service 3"]
+    dropdownItems: ["Daily Ideas", "My Coach", "Keyword Tools", "Competitors Tools", "Channel Audit Tools", "All Feature"]
   },
   {
     id: 2,
@@ -154,7 +154,7 @@ const navItems = [
     Name: "Blog",
     Route: "/blog",
     hasDropdown: true,
-    dropdownItems: ["Service 1", "Service 2", "Service 3"]
+    dropdownItems: ["Views", "Monetization", "Analytics", "All Tips and Insights"]
   },
   {
     id: 7,
@@ -180,7 +180,7 @@ function Navbar({ bg_color, position }) {
         </div>
 
         {/* tester */}
-        <div className="md:flex text-white hidden justify-center items-center font-Inter_2 gap-8 relative">
+        <div className="md:flex text-white hidden justify-center items-center font-OpenSans text-sm gap-8 relative">
           {navItems.map((item, index) => (
             <Link href={item.Route} key={index}>
               <ul className="relative text-white main list-none flex justify-center items-start">
@@ -192,9 +192,9 @@ function Navbar({ bg_color, position }) {
                 )}
                 {item.hasDropdown && (
 
-                  <ul className="absolute top-[20px] left-[0px] item hidden p-2 rounded w-[100px] border-2 border-white border-solid">
+                  <ul className="hidden text-sm font-Halvic absolute top-[24px] left-[0px]  p-2 w-[180px] bg-[#2A2F46]/60 shadow-2xl rounded-lg border-2 border-[#2A2F46] border-solid  item">
                     {item.dropdownItems.map((service, index) => (
-                      <li className="list-none cursor-pointer" key={index}>{service}</li>
+                      <li className="list-none mb-2 cursor-pointer glow_text text-white/70" key={index}>{service}</li>
 
                     ))}
 
